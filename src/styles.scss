@@ -1,0 +1,69 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import "~bootstrap/scss/bootstrap.scss";
+img {
+    max-width: 100%;
+}
+
+img {
+    transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -webkit-transition: all .5s ease
+}
+
+.my-list {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #f5efef;
+    float: left;
+    margin: 15px 0;
+    border-radius: 5px;
+    box-shadow: 2px 3px 0px #e4d8d8;
+    position: relative;
+    overflow: hidden;
+}
+
+.my-list h3 {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 1px solid #ccc4c4;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+.my-list span {
+    float: left;
+    font-weight: bold;
+}
+
+.my-list span:last-child {
+    float: right;
+}
+
+.my-list .offer {
+    width: 100%;
+    float: left;
+    margin: 5px 0;
+    border-top: 1px solid #ccc4c4;
+    margin-top: 5px;
+    padding-top: 5px;
+    color: #afadad;
+}
+
+.detail {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    text-align: center;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+}
+
+.my-list:hover .detail {
+    top: 0;
+}
