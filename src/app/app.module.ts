@@ -6,6 +6,7 @@ import { ProductsComponent } from './products/products.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductComponent } from './product/product.component';
 import { Routes, RouterModule } from '@angular/router';
+
 import { StoreModule } from "@ngrx/store";
 import { reducer } from './store/reducer';
 

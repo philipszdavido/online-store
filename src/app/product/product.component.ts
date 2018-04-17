@@ -43,7 +43,6 @@ export class ProductComponent implements OnInit {
   }
 
   addToCart(product) {
-      console.log(product)
         this.store.dispatch(new Cart.AddProduct(product))
   }
 
